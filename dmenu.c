@@ -25,7 +25,7 @@
                              * MAX(0, MIN((y)+(h),(r).y_org+(r).height) - MAX((y),(r).y_org)))
 #define TEXTW(X)              (drw_fontset_getwidth(drw, (X)) + lrpad)
 
-#define padding 6
+#define padding 8
 
 /* enums */
 enum { SchemePrompt, SchemeNorm, SchemeSel, SchemeOut, SchemeLast }; /* color schemes */
