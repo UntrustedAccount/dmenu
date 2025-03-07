@@ -1,0 +1,51 @@
+From 5bfcad96d4d14433c4a5e8e4692bb9760c8f95e7 Mon Sep 17 00:00:00 2001
+From: Daniel Liu <daniel17liu@gmail.com>
+Date: Fri, 7 Mar 2025 15:10:04 -0800
+Subject: [PATCH] i forgot what i changed
+
+---
+ dmenu   | Bin 43448 -> 43448 bytes
+ dmenu.c |   2 +-
+ dmenu.o | Bin 33912 -> 33912 bytes
+ 3 files changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/dmenu b/dmenu
+index 48a7bdc3d5a326c4b24ce2ef0bec1e8119b0a09f..269fd61516e7babb7e8cd20dbc374fe0ccd0599a 100755
+GIT binary patch
+delta 129
+zcmdmSnQ6ymrVSm;B3nH-)J#ilUCA&0wm+`mTXA9KUZu@*n0Kf%3TzJ5W)+s>aQt7&
+z;L&Ys<;K9^*z2S6p|_aBaVHA{1A|Mi!-vTgcGKiJfSj4%e|GZ<0@dsS@f<r3cC!it
+Vd0;iV_HVdAqFG?>W@U$|nE*@6EWH2#
+
+delta 129
+zcmdmSnQ6ymrVSm;BAK71`##?c;D}>eddaYm>C&%1U)VO!Vcwz6$g??An^jnj&GCOJ
+zgGaZml^X+tW3P|Om)>GF$DPa!3=A&44qql$*iDmX19E15|Jlte2voBR#B=OC*v%>o
+W<bl=b+P~ofiDrSho0T1=W&!|r@+~s}
+
+diff --git a/dmenu.c b/dmenu.c
+index 0560712..a9975a7 100644
+--- a/dmenu.c
++++ b/dmenu.c
+@@ -25,7 +25,7 @@
+                              * MAX(0, MIN((y)+(h),(r).y_org+(r).height) - MAX((y),(r).y_org)))
+ #define TEXTW(X)              (drw_fontset_getwidth(drw, (X)) + lrpad)
+ 
+-#define padding 6
++#define padding 8
+ 
+ /* enums */
+ enum { SchemePrompt, SchemeNorm, SchemeSel, SchemeOut, SchemeLast }; /* color schemes */
+diff --git a/dmenu.o b/dmenu.o
+index 30a4dfb1ff115db3a3900231f082c86dce9c77fa..f691cda4341080508228ecdbec846c7aaba8627b 100644
+GIT binary patch
+delta 103
+zcmey-!SthpX+t549EaooQU;H1TLvI-?DbLk&|A#mxRV9QbLn;XFu9*)nmh-PGxPh;
+pZeEa@T_B!g=fQ4P5D%=zh4l>=NHhz~-E76C&Ce*XIZae39{`h*9$o+d
+
+delta 103
+zcmey-!SthpX+t549Gm0+QU;H1TLvI-?DbLk(p${txRV*kbLn;XGP$2+nmikjGxPh;
+pZeEa@T_B!g=fQ4P5D%=zh4l>=NHhz~-E76C&CkfQIZae39{`iZ9$x?e
+
+-- 
+2.48.1
+
